@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calorie Counter</title>
+	<script>
+</head>
+<body>
+    <h1>Calorie Counter</h1>
+
+    <div>
+        <input type="text" id="foodItem" placeholder="Food item">
+        <input type="number" id="calorieCount" placeholder="Calorie count">
+        <button onclick="addFoodItem()">Add</button>
+    </div>
+
+    <h2>Food Log</h2>
+    <table id="foodTable" border="1">
+        <tr>
+            <th>Food Item</th>
+            <th>Calories</th>
+        </tr>
+    </table>
+
+    <h3>Total Calories: <span id="totalCalories">0</span></h3>
+
+    <button onclick="resetData()">Reset Data</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
