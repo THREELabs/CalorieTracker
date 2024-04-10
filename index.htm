@@ -4,16 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calorie Counter</title>
-	<script>
 </head>
 <body>
     <h1>Calorie Counter</h1>
 
     <div>
-        <input type="text" id="foodItem" placeholder="Food item">
-        <input type="number" id="calorieCount" placeholder="Calorie count">
+        <input type="text" id="foodItem" placeholder="Food">
+        <input type="number" id="calorieCount" placeholder="Calories">
         <button onclick="addFoodItem()">Add</button>
     </div>
+<br>
+    <div>
+   	 <input type="text" id="exerciseDescription" placeholder="Activity">
+    	<input type="number" id="caloriesBurned" placeholder="Calories Burned">
+    <button onclick="subtractCalories()">Subtract</button>
+    </div>
+   
 
     <h2>Food Log</h2>
     <table id="foodTable" border="1">
